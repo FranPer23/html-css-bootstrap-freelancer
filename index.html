@@ -30,7 +30,7 @@
     <!-- main content  -->
     <main>
     <!-- jumbotron  -->
-    <section class="ms_jumbotron text-center py-4">
+    <section class="ms_jumbotron text-center py-4 white-text">
         <div class="container">
             <img class="ms_avatar" src="./img/avatar.svg" alt="avatar">
             <h1>START BOOTSTRAP</h1>
@@ -43,7 +43,7 @@
     <!-- /jumbotron  -->
 
     <!-- portfolio section  -->
-    <section class="py-4">
+    <section class="py-4 ms_black-text">
         <div class="container">
             <div class="ms_section-title text-center mb-3">
                 <h2>PORTFOLIO</h2>
@@ -110,11 +110,34 @@
     </section>
 
     <section>
-        <div class="ms_small-container">
+        <div class="ms_small-container py-4">
             <div class="container-fluid">
-                <div class="ms_section-title text-center">
-                            
+                <div class="ms_section-title text-center ms_black-text py-4">
+                    <h2>CONTACT ME</h2>
+                    <div class="ms_line"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="ms_line"></div>
                 </div>
+                    <form>
+                        <div class="mb-3 ms_black-text ">
+                            <label for="InputName" class="form-label">Name</label>
+                            <input type="text" class="form-control ms_border-style" id="InputName" aria-describedby="NameUser">
+                        </div>
+                        <div class="mb-3 ms_black-text">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control ms_border-style" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3 ms_black-text">
+                            <label for="InputNumber" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control ms_border-style" id="Phone" aria-describedby="NumberUser">
+                        </div>
+                        <div class="mb-3 ms_black-text">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control ms_border-style" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-primary ms_btn-color">Send</button>
+                    </form>  
+                
             </div>
         </div>
     </section>
@@ -125,12 +148,31 @@
 
     <!-- footer section  -->
     <footer>
-       <div class="ms_footer-top py-4">
-            <div class="container text-center">
+       <div class="ms_footer-top py-4 white-text">
+            <div class="container text-center ">
                 <div class="row row-cols-1 row-cols-md-3 g-3">
-                    <div class="col">lorem</div>
-                    <div class="col">lorem</div>
-                    <div class="col">lorem</div>
+                    <div class="col py-4">
+                        <h2>LOCATION</h2><p>2215 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+                    <div class="col py-4">
+                        <h2>AROUND THE WEB</h2>
+                        <div class="ms_icons">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="ms_icons">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </div>
+                        <div class="ms_icons">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="ms_icons">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div> 
+                    <div class="col py-4">
+                        <h2>ABOUT FREELANCER</h2>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span></p>
+                    </div>
                 </div>
             </div>
        </div>
