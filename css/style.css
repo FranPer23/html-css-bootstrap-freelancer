@@ -13,6 +13,10 @@ img {
     height: var(--header-height);
 }
 
+.ms_nav-color {
+    color: white;
+    border: white;
+}
 .ms_jumbotron {
     background-color: var(--ms-jumbotron);
 }
