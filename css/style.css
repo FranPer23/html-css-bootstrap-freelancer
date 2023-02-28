@@ -1,0 +1,58 @@
+:root {
+    --ms-header-color: #2c3e50;
+    --header-height: 70px; 
+    --ms-jumbotron: #1abc9c; 
+}
+
+img {
+    max-width: 100%;
+}
+
+.ms_header {
+    background-color: var(--ms-header-color);
+    height: var(--header-height);
+}
+
+.ms_jumbotron {
+    background-color: var(--ms-jumbotron);
+}
+
+.ms_avatar {
+    width: 200px;
+}
+
+.ms_line {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    height: 2px;
+    width: 50px;
+}
+
+.fa-star {
+    width: 10%;
+}
+
+.fa-download {
+    width: .8rem;
+}
+
+.ms_primary-bg {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.ms_small-container {
+    width: 60%;
+    max-width: 720px;
+    margin: 0 auto;
+    color: white;
+}
+
+.ms_footer-top {
+
+}
+
+.ms_footer-bottom {
+
+}
