@@ -21,10 +21,18 @@ img {
     width: 200px;
 }
 
-.ms_line {
+.ms_line-white {
     display: inline-block;
     vertical-align: middle;
     background-color: white;
+    height: 2px;
+    width: 50px;
+}
+
+.ms_line-black {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: black;
     height: 2px;
     width: 50px;
 }
@@ -64,11 +72,10 @@ img {
     background-color: #1abc9c;
 }
 
-.ms_icons {
+.ms_icons i {
     display: inline-block;
-    border-radius: 100px;
-    padding: 20px;
-    line-height: 10px;
+    border-radius: 50%;
+    padding: 10px;
     border: 1px solid white;
 }
 
@@ -81,9 +88,11 @@ span {
 }
 
 .ms_footer-top {
-    background-color: #2c3e50;
+    background-color: #3a546d;
 }
 
 .ms_footer-bottom {
-
+    background-color: #2c3e50;
+    height: var(--header-height);
 }
+
